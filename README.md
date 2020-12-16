@@ -1,3 +1,13 @@
+# TODO Liste:
+### Um diese Sachen kann ich mich auch ganz gut kümmern, bin da ja so bissle drin yeah
+- TODO Kommentare im Code
+- Wie sieht es mit member variables aus? Und allgemein Objekten als Variablen etc
+- (Back)Until command: falls keine Argument soll es wie next sein (CHECK ICH NICHT)
+- Testen, besonders Randfälle und so you know, aber auch ob es wirklich der Spezifikation entspricht
+### Weiterer KRAM recht obvious aber important!
+- May Haves
+- UI!!!!
+
 # About this Book
 
 __Welcome to "The Debugging Book"!__ 
