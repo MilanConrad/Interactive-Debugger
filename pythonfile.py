@@ -1,11 +1,21 @@
+
+
 def py_fun1(arg):
-    res = py_fun4([1, 2, arg])
+    arg += 1
+    res = py_fun2(1, arg)
+    res += 1
     return res
 
 
 def py_fun2(a, b):
-    c = a + b
+    c = a + py_fun5(b)
     return c
+
+
+def py_fun5(arg):
+    res = arg * 10
+    res *= 2
+    return res
 
 
 def py_fun3(list):
@@ -19,3 +29,6 @@ def py_fun3(list):
 def py_fun4(list):
     res = [a + 1 for a in list if a < 3]
     return res
+
+
+print(py_fun1(1))
