@@ -1,8 +1,9 @@
 def py_fun1(arg):
     arg += 1
-    py_recursive(5)
-    res = py_fun2(1, arg)
-    res = py_fun6(arg)
+    res = fac(3)
+    #py_recursive(3)
+    #res = py_fun2(1, arg)
+    #res = py_fun6(arg)
     res += 1
     return res
 
@@ -24,6 +25,12 @@ def py_fun6(arg):
         arg+=1
     return arg
 
+def fac(n):
+    if n<=1:
+        return 1
+    else:
+        erg = n * fac(n-1)
+        return erg
 
 def py_fun5(arg):
     res = arg * 10
